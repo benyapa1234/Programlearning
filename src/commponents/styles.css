@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(163, 11, 11);
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.en-title{
+    font-size: 2rem;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    /* แถบใหญ่เล็ก */
+    display: flex;
+    gap: 1rem;
+
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    background-color: #777;
+}
+
+.nav li.active {
+    background-color: #555;
+}
+.dropdown-menu {
+    width: auto; 
+}
+  
